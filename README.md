@@ -1,2 +1,10 @@
 # docker-aku-boi
-Aku BOI
+
+Docker Image of Aku.BOI
+
+## How to run
+
+```sh
+docker pull blankoninfra/aku
+docker run -it -p 8081:8081 blankoninfra/aku
+```
